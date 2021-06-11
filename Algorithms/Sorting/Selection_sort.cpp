@@ -2,6 +2,7 @@
 using namespace std ;
 void selection_sort(int a[],int n){
   for (int i=0;i<n;i++){
+//Find minimum element 
     int min = i;
     for(int j=i;j<n;j++){
       if(a[j]<a[min]){
