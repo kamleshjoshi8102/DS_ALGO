@@ -9,9 +9,7 @@ int multiplication(int m,int n){
   if(n==0){
     return 0;
   }
-  if(n==1){
-    return m;
-  }
+
   return m+multiplication(m,n-1);
 }
 
