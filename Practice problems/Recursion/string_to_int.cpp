@@ -1,4 +1,4 @@
-/*Program to remove x */
+/*Program to convert string to integer */
 #include <iostream>
 #include<cmath>
 using namespace std;
