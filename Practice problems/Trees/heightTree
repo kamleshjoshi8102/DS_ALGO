@@ -1,0 +1,11 @@
+int heightTree(TreeNode<int> *root){
+    
+    int max=0;
+    for(int i=0;i<root->children.size();i++){
+        int test=heightTree(root->children[i]);
+        if(max<test){
+            max=test;
+        }
+    }
+    return max+1;
+}
